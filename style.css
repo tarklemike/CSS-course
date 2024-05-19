@@ -12,29 +12,51 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+}
 
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .header {
   display: flex;
   width: 90%;
   margin-inline: auto;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
 }
 
 .title {
   font-size: 1.5rem;
+  flex: 1;
   text-transform: uppercase;
 }
 
 .menu {
   display:flex;
   gap: 1rem;
+  flex: 1;
+  justify-content: center;
 }
 
 .link {
   text-decoration: none;
   color: #000
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.btn {
+  background-color: #000;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
 }
