@@ -176,6 +176,25 @@ button {
   margin-top: 1rem;
 }
 
+/* contact section */
+
+.contact {
+  text-align: center;
+  margin-top: 5rem;
+ }
+
+.contact__title {
+  font-size: 2.25rem;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.contact__description {
+  max-width: 60ch;
+  margin: 1rem auto;
+  font-size: 1.2rem;
+}
+
 
 /* utility */
 .btn {
