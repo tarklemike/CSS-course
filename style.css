@@ -303,6 +303,52 @@ button {
   margin-top: 1rem;
 }
 
+@media (max-width: 891px) {
+  .features__title {
+    font-size: 2rem;
+  }
+
+  .features__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 713px) {
+  .features {
+    margin-top: 5rem;
+  }
+
+  .features__title {
+    font-size: 1.5rem;
+  }
+
+  .features__description {
+    font-size: 0.9rem;
+    margin: 0.5rem auto;
+  }
+
+  .features__box-title {
+    font-size: 1rem;
+  }
+
+  .features__box-description {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 495px) {
+  .features__title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 396px) {
+  .features__title {
+    font-size: 1.1rem;
+  }
+}
+
 /* contact section */
 .contact {
   text-align: center;
