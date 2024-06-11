@@ -53,8 +53,45 @@ button {
   justify-content: flex-end;
 }
 
-/* hero section*/
+@media (max-width: 891px) {
+  .header__title {
+    font-size: 1.2rem;
+  }
 
+  .header__link {
+    font-size: 0.8rem;
+    }
+
+  .header__btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 713px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__btn-container {
+    display: none;
+  }
+
+  .header__bars {
+    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .header__title {
+    flex: 0 1 auto
+  }
+}
+
+/* hero section*/
 .hero {
   text-align: center;
   margin-top: 10rem;
@@ -75,7 +112,6 @@ button {
   }
 
 /* pricing section */
-
 .pricing {
   margin-top: 5rem;
 }
@@ -136,7 +172,6 @@ button {
 }
 
 /* features sectio */
-
 .features {
   text-align: center;
   margin-top: 5rem;
@@ -177,7 +212,6 @@ button {
 }
 
 /* contact section */
-
 .contact {
   text-align: center;
   margin-top: 5rem;
@@ -195,6 +229,17 @@ button {
   font-size: 1.2rem;
 }
 
+/* footer section */
+.footer {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.footer__title {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
 
 /* utility */
 .btn {
@@ -210,3 +255,5 @@ button {
   width: 90%;
   margin-inline: auto;
 }
+
+/* media queries */
