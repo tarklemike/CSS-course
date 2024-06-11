@@ -154,7 +154,7 @@ button {
 }
 /* pricing section */
 .pricing {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 .pricing__title {
   letter-spacing: -0.05em;
@@ -162,7 +162,7 @@ button {
   line-height: 1;
   }
 
-  .pricing__description {
+.pricing__description {
   margin: 1em 0;
   font-size: 1.2rem;
   max-width: 45ch;
@@ -170,6 +170,7 @@ button {
 
 .pricing__container {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
@@ -179,6 +180,7 @@ button {
   border-radius: 20px;
   padding: 2em;
   flex: 1;
+  min-width: 400px;
 }
 
 .pricing__price {
@@ -210,6 +212,55 @@ button {
   gap: 1rem;
   font-size: 0.9rem;
   color: #ccc;
+}
+
+@media (max-width: 891px) {
+  .pricing__title {
+    font-size: 2rem;
+  }
+
+  .pricing__description {
+    font-size: 1rem;
+  }
+
+  .pricing__price {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 713px) {
+  .pricing {
+    margin-top: 5rem;
+  }
+
+  .pricing__title {
+    font-size: 1.5rem;
+  }
+
+  .pricing__description {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+
+  .pricing__plan-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 495px) {
+  .pricing__title {
+    font-size: 1.3rem;
+  }
+
+  .pricing__box {
+    min-width: 290px;
+  }
+}
+
+@media (max-width: 396px) {
+  .pricing__title {
+    font-size: 1.1rem;
+  }
 }
 
 /* features sectio */
