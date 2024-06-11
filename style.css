@@ -367,6 +367,47 @@ button {
   font-size: 1.2rem;
 }
 
+@media (max-width: 891px) {
+  .contact__title {
+    font-size: 2rem;
+  }
+
+  .contact__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 713px) {
+  .contact {
+    margin-top: 5rem;
+  }
+
+  .contact__title {
+    font-size: 1.5rem;
+  }
+
+  .contact__description {
+    font-size: 0.9rem;
+    margin: 0.5rem auto;
+  }
+
+  .contact__btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 495px) {
+  .contact__title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 396px) {
+  .contact__title {
+    font-size: 1.1rem;
+  }
+}
+
 /* footer section */
 .footer {
   text-align: center;
